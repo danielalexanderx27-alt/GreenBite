@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBite</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/screen.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+    <body>
+    <header>
+        <div class="container header-inner">
+            <a href="index.html">
+                <img src="img/ecofoodlogo.jpg" alt="GreenBite Logo">
+            </a>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">Over ons</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="container">
+        <h1>Contacteer ons</h1>
+
+        <section id="contact-info" aria-labelledby="contact-info-title">
+            <h2 id="contact-info-title">Onze gegevens</h2>
+            <p><strong>Adres:</strong> Groenstraat 12, 2000 Antwerpen</p>
+            <p><strong>Telefoon:</strong> <a href="tel:+32123456789">+32 12 345 6789</a></p>
+            <p><strong>E-mail:</strong> <a href="mailto:info@greenbite.be">info@greenbite.be</a></p>
+            <p><strong>Openingsuren:</strong> Ma – Vr: 11:00 – 22:00, Za – Zo: 12:00 – 23:00</p>
+        </section>
+
+        <section id="map" aria-labelledby="map-title">
+            <h2 id="map-title">Onze locatie</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.123456!2d4.3997!3d51.2194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f4c9e0f0abcd%3A0x1234567890abcdef!2sGroenstraat+12%2C+Antwerpen!5e0!3m2!1snl!2sbe!4v1700000000000!5m2!1snl!2sbe"
+                loading="Lazy"
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contacteer ons</h2>
+
+            <form class="contact-form">
+                <label for="name">Naam:</label>
+                <input type="text" id="name" name="name" required>
+      
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Bericht:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Verstuuur</button>
+            </form>
+            
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>
+                Deze fictieve website is ontwikkeld voor educatieve doeleinden, als onderdeel van een project van de opleiding
+                <a href="https://www.howest.be/oog" target="_blank" rel="noopener">Online &amp; Offline Graphic Design</a> van Howest.
+            </p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

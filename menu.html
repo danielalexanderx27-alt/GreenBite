@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBite</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/screen.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header-inner">
+            <a href="index.html">
+                <img src="img/ecofoodlogo.jpg" alt="GreenBite Logo">
+            </a>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">Over ons</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="menu-list-container">
+
+        <h1>Onze gerechten</h1>
+
+        <section class="menu-list">
+            <h2 id="menu-list-title" class="sr-only">Ons Menu</h2>
+
+            <article class="menu-item">
+                <img src="img/soup.jpg" alt="Gerecht 1">
+                <h3>Seizoenssoep</h3>
+                <p>Kremige soep van lokale groenten.</p>
+                <p class="price">€6,50</p>
+            </article>
+
+            <article class="menu-item">
+                <img src="img/seasonsalade.jpg" alt="Gerecht 2">
+                <h3>Herfstsalade</h3>
+                <p>Gegrilde pompoen, noten en seizoensgroenten.</p>
+                <p class="price">€12,50</p>
+            </article>
+
+            <article class="menu-item">
+                <img src="img/cookedsalade.jpg" alt="Gerecht 3">
+                <h3>Groentetajine</h3>
+                <p>Langzaam gegaarde groenten met lokale kruiden.</p>
+                <p class="price">€14,00</p>
+            </article>
+
+            <article class="menu-item">
+                <img src="img/burger.jpg" alt="Gerecht 4">
+                <h3>Vegan burger</h3>
+                <p>Huisgemaakte burger met lokale granen.</p>
+                <p class="price">€13,00</p>
+            </article>
+
+            <article class="menu-item">
+                <img src="img/cake.jpg" alt="Gerecht 5">
+                <h3>Dessert van de chef</h3>
+                <p>Seizoensdessert met lokaal fruit.</p>
+                <p class="price">€7,00</p>
+            </article>
+            
+        </section>
+
+        <section id="reservation" aria-labelledby="reservation-form-title">
+            <h2 id="reservation-form-title">Reserveer een tafel</h2>
+
+            <form action="#" method="post" class="reservation-form">
+
+                <label for="name">Naam</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="date">Datum</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Tijd</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="guests">Aantal gasten</label>
+                <input type="number" id="guests" name="guests" min="1" max="20" required>
+
+                <button type="submit">Reserveer</button>
+
+            </form>
+        </section>
+
+    </main>
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <p>
+                Deze fictieve website is ontwikkeld voor educatieve doeleinden, als onderdeel van een project van de opleiding
+                <a href="https://www.howest.be/oog" target="_blank" rel="noopener">Online &amp; Offline Graphic Design</a> van Howest.
+            </p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
